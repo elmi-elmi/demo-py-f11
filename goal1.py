@@ -39,7 +39,6 @@ class FileParser:
             return self._nt(*next(self._file_reader))
 
 
-
 with FileParser(file_name2) as f:
     for row in f:
         print(row)
